@@ -1,0 +1,33 @@
+div.head{
+  color: darkslategrey;
+  padding: 10px 40px;
+  border: 1px solid black;
+  text-align: right;
+
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color:lightcyan;
+}
+a:hover{
+  color: cyan;
+}
+
+div.bod{
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+body{
+  font-family: myFont;
+  font-size:20px;
+  background-color: slategrey;
+  margin: 5ch 20ch;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url("squid.ttf");
+}
