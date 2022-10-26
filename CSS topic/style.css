@@ -1,13 +1,13 @@
 
 
 div.head{
-  height: 50px;
+  min-height: 50px;
   box-shadow: 5px 5px 10px black;
   border-radius: 10px;
   background-color: rgb(0, 0, 0, 0.7);
   position: relative;
   color: darkcyan;
-  padding: 10px 40px;
+  /*padding: 10px 40px;*/
   border: 1px solid black;
 
 }
@@ -20,7 +20,7 @@ div.headright{
 
 }
 div.headleft{
-  padding: 0px 40px;
+  padding: 0px 10px;
   background-color: transparent;
   position: absolute;
   text-align: left;
@@ -63,25 +63,28 @@ body{
 }
 
 .side{
+  margin: 0ch -17ch;
   box-shadow: 5px 5px 10px black;
   background-color: rgb(0, 0, 0, 0.7);
   border: 1px solid black;
   border-radius: 10px;
-  height: 35ch;
-  width: 160px;
-  position: fixed;
-  /*z-index: 1;*/
-  top:auto;
-  right: 4ch;
+  min-height: 35ch;
+  min-width: 160px;
+  position: sticky;
+  top: 2ch;
+  margin-bottom: 455px;
+  float: right;
   padding: 5px 10px;
   text-align: center;
 }
 
 footer.foot{
-  height: 400px;
+  margin-right: -17ch;
+  margin-left: -17ch;
+  margin-bottom: 0px;
+  min-height: 400px;
   border-radius: 10px;
   background-color: rgb(0, 0, 0, 0.9);
-  position: relative;
   color: darkcyan;
   padding: 10px 40px;
   border: 1px solid black;
